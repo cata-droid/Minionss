@@ -337,14 +337,14 @@
             </div>
         </section>
 
-        <!-- SECCIÓN 2: PELÍCULAS (img6.jpg a img11.jpg) -->
+        <!-- SECCIÓN 2: PELÍCULAS 
         <section id="sec-peliculas" class="section-content">
             <div class="glass-card p-6 md:p-8 mb-8 text-center bg-blue-100">
                 <h2 class="text-3xl md:text-4xl font-extrabold text-minionBlueDark mb-2">
                     🎬 Catálogo de Películas
                 </h2>
                 <p class="text-gray-700 max-w-2xl mx-auto font-semibold">
-                    Colección completa de las películas de la saga. Los pósteres cargan directamente desde `img6.jpg` hasta `img11.jpg`.
+                    Colección completa de las películas de la saga. .
                 </p>
             </div>
 
@@ -355,15 +355,13 @@
                 <div class="glass-card p-4 flex flex-col justify-between">
                     <div>
                         <div class="img-frame h-64 mb-3">
-                            <img id="preview-img6" src="img6.jpg" alt="Mi Villano Favorito (2010)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img6.jpg]</div>';">
+                            <img id="preview-img6" src="images/mi villano 1.jpg" alt="Mi Villano Favorito (2010)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img6.jpg]</div>
                         </div>
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="font-bold text-lg text-minionBlueDark">Mi Villano Favorito</h3>
                             <span class="bg-minionYellow font-bold px-2 py-0.5 rounded text-xs border border-minionDark">2010</span>
                         </div>
-                        <button onclick="triggerFileInput('input-img6')" class="mb-3 text-xs font-bold text-minionBlue hover:underline flex items-center gap-1">
-                            <i class="fa-solid fa-upload"></i> Cambiar img6.jpg
-                        </button>
+                       
                         <input type="file" id="input-img6" class="hidden" accept="image/*" onchange="previewImage(this, 'preview-img6')">
                         <p class="text-xs text-gray-600 mb-3">
                             Gru intenta robar la Luna para ser el mayor villano, pero tres niñas huérfanas le cambian la vida.
@@ -378,15 +376,13 @@
                 <div class="glass-card p-4 flex flex-col justify-between">
                     <div>
                         <div class="img-frame h-64 mb-3">
-                            <img id="preview-img7" src="img7.jpg" alt="Mi Villano Favorito 2 (2013)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img7.jpg]</div>';">
+                            <img id="preview-img7" src="images/mi villano 2.png" alt="Mi Villano Favorito 2 (2013)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img7.jpg]</div>
                         </div>
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="font-bold text-lg text-minionBlueDark">Mi Villano Favorito 2</h3>
                             <span class="bg-minionYellow font-bold px-2 py-0.5 rounded text-xs border border-minionDark">2013</span>
                         </div>
-                        <button onclick="triggerFileInput('input-img7')" class="mb-3 text-xs font-bold text-minionBlue hover:underline flex items-center gap-1">
-                            <i class="fa-solid fa-upload"></i> Cambiar img7.jpg
-                        </button>
+                        
                         <input type="file" id="input-img7" class="hidden" accept="image/*" onchange="previewImage(this, 'preview-img7')">
                         <p class="text-xs text-gray-600 mb-3">
                             Gru es reclutado por la Liga Anti-Villanos. Aparecen por primera vez los insaciables Minions Morados.
@@ -401,15 +397,13 @@
                 <div class="glass-card p-4 flex flex-col justify-between">
                     <div>
                         <div class="img-frame h-64 mb-3">
-                            <img id="preview-img8" src="img8.jpg" alt="Minions (2015)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img8.jpg]</div>';">
+                            <img id="preview-img8" src="images/minions.avif" alt="Minions (2015)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img8.jpg]</div>
                         </div>
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="font-bold text-lg text-minionBlueDark">Minions</h3>
                             <span class="bg-minionYellow font-bold px-2 py-0.5 rounded text-xs border border-minionDark">2015</span>
                         </div>
-                        <button onclick="triggerFileInput('input-img8')" class="mb-3 text-xs font-bold text-minionBlue hover:underline flex items-center gap-1">
-                            <i class="fa-solid fa-upload"></i> Cambiar img8.jpg
-                        </button>
+                       
                         <input type="file" id="input-img8" class="hidden" accept="image/*" onchange="previewImage(this, 'preview-img8')">
                         <p class="text-xs text-gray-600 mb-3">
                             Aventura en solitario de Kevin, Stuart y Bob buscando un nuevo jefe malvado en los años 60.
@@ -424,15 +418,11 @@
                 <div class="glass-card p-4 flex flex-col justify-between">
                     <div>
                         <div class="img-frame h-64 mb-3">
-                            <img id="preview-img9" src="img9.jpg" alt="Mi Villano Favorito 3 (2017)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img9.jpg]</div>';">
-                        </div>
-                        <div class="flex justify-between items-center mb-1">
+                            <img id="preview-img9" src="images/mi villano 3.jpg" alt="Mi Villano Favorito 3 (2017)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img9.jpg]</div>
                             <h3 class="font-bold text-lg text-minionBlueDark">Mi Villano Favorito 3</h3>
                             <span class="bg-minionYellow font-bold px-2 py-0.5 rounded text-xs border border-minionDark">2017</span>
                         </div>
-                        <button onclick="triggerFileInput('input-img9')" class="mb-3 text-xs font-bold text-minionBlue hover:underline flex items-center gap-1">
-                            <i class="fa-solid fa-upload"></i> Cambiar img9.jpg
-                        </button>
+                        
                         <input type="file" id="input-img9" class="hidden" accept="image/*" onchange="previewImage(this, 'preview-img9')">
                         <p class="text-xs text-gray-600 mb-3">
                             Gru conoce a su hermano gemelo Dru. Los Minions terminan en prisión con sus trajes a rayas.
@@ -447,15 +437,13 @@
                 <div class="glass-card p-4 flex flex-col justify-between">
                     <div>
                         <div class="img-frame h-64 mb-3">
-                            <img id="preview-img10" src="img10.jpg" alt="Minions: El Origen de Gru (2022)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img10.jpg]</div>';">
+                            <img id="preview-img10" src="images/minions 2.jfif" alt="Minions: El Origen de Gru (2022)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img10.jpg]</div>
                         </div>
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="font-bold text-lg text-minionBlueDark">Minions: El Origen de Gru</h3>
                             <span class="bg-minionYellow font-bold px-2 py-0.5 rounded text-xs border border-minionDark">2022</span>
                         </div>
-                        <button onclick="triggerFileInput('input-img10')" class="mb-3 text-xs font-bold text-minionBlue hover:underline flex items-center gap-1">
-                            <i class="fa-solid fa-upload"></i> Cambiar img10.jpg
-                        </button>
+                        
                         <input type="file" id="input-img10" class="hidden" accept="image/*" onchange="previewImage(this, 'preview-img10')">
                         <p class="text-xs text-gray-600 mb-3">
                             En los años 70, los Minions aprenden artes marciales para salvar a un muy joven Gru.
@@ -470,15 +458,13 @@
                 <div class="glass-card p-4 flex flex-col justify-between">
                     <div>
                         <div class="img-frame h-64 mb-3">
-                            <img id="preview-img11" src="img11.jpg" alt="Mi Villano Favorito 4 (2024)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img11.jpg]</div>';">
+                            <img id="preview-img11" src="images/mi villano 4.jpg" alt="Mi Villano Favorito 4 (2024)" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"p-8 text-center text-xs font-bold text-gray-600\"><i class=\"fa-solid fa-film text-4xl text-minionBlue mb-2 block\"></i>[Coloca tu archivo img11.jpg]</div>
                         </div>
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="font-bold text-lg text-minionBlueDark">Mi Villano Favorito 4</h3>
                             <span class="bg-minionYellow font-bold px-2 py-0.5 rounded text-xs border border-minionDark">2024</span>
                         </div>
-                        <button onclick="triggerFileInput('input-img11')" class="mb-3 text-xs font-bold text-minionBlue hover:underline flex items-center gap-1">
-                            <i class="fa-solid fa-upload"></i> Cambiar img11.jpg
-                        </button>
+                        
                         <input type="file" id="input-img11" class="hidden" accept="image/*" onchange="previewImage(this, 'preview-img11')">
                         <p class="text-xs text-gray-600 mb-3">
                             Nace Gru Jr. y surgen los superpoderosos 'Mega Minions' genéticamente modificados.
